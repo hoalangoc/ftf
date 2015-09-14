@@ -1,0 +1,115 @@
+[22-Apr-2014 08:42:43 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('8540de4bf0b8c7f...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(42): apiClient->setAccessToken('8540de4bf0b8c7f...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:42:45 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('8540de4bf0b8c7f...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(42): apiClient->setAccessToken('8540de4bf0b8c7f...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:43:34 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(42): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:45:50 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 196
+[22-Apr-2014 08:45:50 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'The OAuth 2.0 access token has expired, and a refresh token is not available. Refresh tokens are not returned for responses that were auto-approved.' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:197
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/io/apiCurlIO.php(55): apiOAuth2->sign(Object(apiHttpRequest))
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(60): apiCurlIO->authenticatedRequest(Object(apiHttpRequest))
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 197
+[22-Apr-2014 08:53:27 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:53:28 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:53:29 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:53:30 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:53:30 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:53:31 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:53:32 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:53:32 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:53:33 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:54:57 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:54:58 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:56:22 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 08:56:23 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('1e4d679822f3b58...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('1e4d679822f3b58...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 09:05:48 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('d8cdfaefd3b4cac...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('d8cdfaefd3b4cac...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
+[22-Apr-2014 09:06:05 UTC] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Could not json decode the access token' in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php:144
+Stack trace:
+#0 /home/deveyfun/public_html/openid/contact/gmail/src/apiClient.php(186): apiOAuth2->setAccessToken('d8cdfaefd3b4cac...')
+#1 /home/deveyfun/public_html/openid/contact/gmail/index.php(43): apiClient->setAccessToken('d8cdfaefd3b4cac...')
+#2 {main}
+  thrown in /home/deveyfun/public_html/openid/contact/gmail/src/auth/apiOAuth2.php on line 144
