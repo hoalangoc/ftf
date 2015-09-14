@@ -1,0 +1,2 @@
+2015-06-14 04:49:13 +00:00 --- Error: Missing image - /test/application/modules/User/externals/images/bg-gradient-player-card.png / /var/www/vhosts/tarfee.com/httpdocs/test/application/modules/User/externals/images/bg-gradient-player-card.png
+2015-06-14 11:09:48 +00:00 --- Error: Missing image - /test/application/modules/User/externals/images/bg-gradient-player-card.png / /var/www/vhosts/tarfee.com/httpdocs/test/application/modules/User/externals/images/bg-gradient-player-card.png
