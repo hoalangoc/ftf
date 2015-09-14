@@ -1,0 +1,507 @@
+"_EMAIL_USER_EMAIL_TO_FRIEND_SUBJECT";"Mensaje de [sender_title] en [host]"
+"_EMAIL_NOTIFY_YNVIDEO_PROCESSED_SUBJECT";"Tu vídeo ""[object_title]"" esta listo"
+"_EMAIL_NOTIFY_YNVIDEO_PROCESSED_BODYHTML";"[header]<br> <br> tu vídeo ""<strong>[object_title]</strong>""ha sido subido satisfactoriamente y esta listo para ser visto. Para verlo o compartirlo puedes dar click en el siguiente link :<br> <br> http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_INVITE_SUBJECT";"Ha recibido una invitación para unirse a nuestra Red Social"
+"_EMAIL_INVITE_CODE_SUBJECT";"¡Ha recibido una invitación para unirse a nuestra Red Social!"
+"View More";"Ver más"
+"Post";"Publicar"
+"post";"anotación";"anotaciones"
+"Like";"Me gusta"
+"like";"me gusta"
+"Unlike";"No me gusta"
+"unlike";"ya no me gusta"
+"Comment";"Comentar"
+"Delete";"Borrar"
+"%s person likes this";"A %s usuario le gusta esto";"A %s usuarios les gusta esto"
+"%s likes this.";"A %s le gusta esto.";"A %s les gusta esto."
+"This activity item has been removed.";"Esta actividad ha sido eliminada."
+"Comment has been deleted";"El comentario ha sido borrado"
+"You do not have the privilege to delete this comment";"No tiene autorización para borrar este comentario"
+"... &nbsp;";"... &nbsp;"
+"more";"más"
+"less";"menos"
+"You have no notifications.";"No tiene notificaciones."
+"You have no requests.";"No tiene solicitudes pendientes."
+"Publish this on Facebook";"Publicar en FaceBook"
+"Share this by re-posting it with your own message.";"Comparta esto publicándolo con su propio mensaje."
+"Delete Activity Item?";"¿Borrar actualización?"
+"Are you sure that you want to delete this activity item and all of its comments? This action cannot be undone.";"¿Desea borrar esta actualización con todos sus comentarios asociados? Esta acción, una vez confirmada, no puede deshacerse."
+"ADMIN_ACTIVITY_TYPE_TAGGED";"Cuando sea identificado en fotos y otros archivos en la Red Social."
+"ADMIN_ACTIVITY_TYPE_FRIENDS";"Cuando dos Usuarios establezcan contacto."
+"ADMIN_ACTIVITY_TYPE_FRIENDS_FOLLOW";"Cuando alguien comience a seguirme."
+"ADMIN_ACTIVITY_TYPE_LOGIN";"Cuando un usuario se identifique en la Red Social."
+"ADMIN_ACTIVITY_TYPE_LOGOUT";"Cuando un Usuario cierre sesión."
+"ADMIN_ACTIVITY_TYPE_POST";"Cuando publique una nota en el perfil de alguien."
+"ADMIN_ACTIVITY_TYPE_POST_SELF";"Cuando adjunte un Archivo."
+"ADMIN_ACTIVITY_TYPE_PROFILE_PHOTO_UPDATE";"Cuando se actualice una foto del perfil."
+"ADMIN_ACTIVITY_TYPE_SIGNUP";"Cuando ingrese un nuevo Usuario a la Red Social."
+"ADMIN_ACTIVITY_TYPE_STATUS";"Cuando se publique una actualización de estado de un usuario."
+"ADMIN_ACTIVITY_TYPE_NETWORK_JOIN";"Cuando me una a una Red"
+"ACTIVITY_FORM_ADMIN_SETTINGS_GENERAL_DESCRIPTION";"Los Titulares es una lista de acciones que se autopublican y que contienen lo último que ha sucedido en su Red Social. Esta información se muestra (por defecto) en la página de inicio de sus usuarios. También, los titulares correspondientes a cada usuario se muestran en su propia página de perfil en caso de estar marcada la opción más abajo. Advertencia: algunos de los ajustes que efectúe aquí no tendrán efecto retroactivo, esto es, lo que cambien ahora no afectará a titulares antiguos.."
+"Allowed Feed Items";"Titulares permitidos"
+"ACTIVITY_FORM_ADMIN_SETTINGS_GENERAL_ALLOWED_DESCRIPTION";"¿Qué titulares desea que sean mostrados en los informes de actualizaciones recientes?"
+"Overall Feed Length";"Longitud total de los titulares"
+"ACTIVITY_FORM_ADMIN_SETTINGS_GENERAL_LENGTH_DESCRIPTION";"¿Cuántos titulares desea que se muestren en todo momento?"
+"ACTIVITY_FORUM_ADMIN_SETTINGS_GENERAL_LENGTH_OPTION1";"5"
+"_EMAIL_INVITE_SUBJECT";"Has recibido una invitación para unirte a [host]"
+"_EMAIL_INVITE_BODYHTML";"[header]<br> <br> Has sido invitado por <strong>[sender_title]</strong> para unirte <strong>[host]</strong>. Para registrarte usa el siguiente link:<br> <br> http://[host][object_link]<br> <br><br><strong>Special Note:</strong><br>[message]<br><br> <br> [footer]"
+"_EMAIL_INVITE_BODYHTML";"[header]<br> <br> Has sido invitado por <strong>[sender_title]</strong> para unirte a <strong>[host]</strong>. Para registrarte usa el siguiente link:<br> <br> http://[host][object_link]<br> <br><br><strong>Special Note:</strong><br>[message]<br><br> <br> [footer]"
+"post";"anotación";"post"
+"unlike";"No me gusta"
+"_EMAIL_INVITE_CODE_BODYHTML";"[header]<br> <br> Has sido invitado por [sender_title]  para unirte a [host] . Para registrarte usa el siguiente link:<br> <br> http://[host][object_link]<br> <br><br> Tu código es:&nbsp;[code]<br><br> ----------------------------------------<br> [message]<br> ----------------------------------------<br> <br> [footer]"
+"Male / Female";"Hombre / Mujer"
+"Keep Eye on this player card";"Sigue a este jugador"
+"Carleton grad student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while.";"Carleton grad student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while."
+"How it works?";"¿Cómo funciona?"
+"
+					<p>
+					Tarfee is a social network that connects football talents with football clubs, universities and scouts worldwide. We believe that every football talent deserves a chance to be noticed and recognized.
+					</p>
+					<p>
+					Therefore, we help football talents, as well as football schools and non-profit organizations to promote their students and their organizations.
+					</p>
+					<p>
+					For many young talents around the world, football is not just a sport, it is an opportunity to improve their lives through scholarships or contracts with football clubs. Our goal is to make this happen, by offering football talents, clubs, universities and scouts a platform that will connect them worldwide.
+					</p>";"<p>
+					Tarfee es una plataforma social que conecta talentosos jugadores de fútbol con escuelas de fútbol, universidades, reclutadores y clubes alrededor del mundo. Nosotros creemos que cada jugador merece tener una oportunidad de ser descubierto, por esa razón ayudamos a los jóvenes talentos, asociaciones sin fines de lucro y escuelas de fútbol a promover a sus jugadores.
+					</p>
+					<p>
+					Para muchos jóvenes alrededor del mundo el fútbol no es solo un deporte, es la oportunidad que tienen para una mejorar su  calidad de vida mediante becas universitarias  o contratos con clubes de fútbol. Nuestro objetivo es facilitar las conexiones entre  los jóvenes talentos, clubes y escuelas de fútbol, y universidades en todo el mundo.
+					</p>"
+"The email is exists.";"El email ya existe."
+"Learn more";"Conoce mas"
+"Home";"Inicio"
+"How it Works?";"¿Cómo funciona?"
+"Team";"Equipo"
+#######"Football";"Football"
+#######"Talents";"Talents"
+"<span>Football </span>Talents";"Talentos <span>Del Fútbol</span>"
+"
+												<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>";"<li>- Sube tus mejores videos y verás lo fácil que es ser descubierto por escuelas de fútbol, universidades, clubes y reclutadores a rededor del mundo</li>
+												<li>- Obtén los mejores contratos y becas</li>
+												<li>- Regístrate para los tryouts y eventos que organizan las escuelas de fútbol, clubes, universidades y reclutadores</li>
+												<li>- Evita fraude y falsas ofertas revisando los ratings y comentarios de los reclutadores</li>
+												<li>- Conéctate con otros jugadores y profesionales: comparte experiencias, aprende y recibe consejos</li>"
+#########"Schools, NGOs";"Schools, NGOs"
+"<span>Football </span>Schools, NGOs";"Escuelas <span>De Fútbol</span> y ONG"
+"
+												<li>- Promote your organization and students, and show the world what you stand for!</li>
+												<li>- Create player profile for each student and upload his/her videos and information</li>
+												<li>- Be engaged with your community, kids, and their parents</li>
+												<li>- Create events and tryouts and invite people to join</li>
+												<li>- Directly send message your followers</li>
+												<li>- Avoid fraud by checking the ratings and reviews of scouts</li>";"<li>- Promueve tu organización, tus estudiantes y muestra al mundo tu trabajo</li>
+												<li>- Crea un perfil para cada uno de tus jugadores y sube sus mejores videos e información</li>
+												<li>- Participa activamente con tu comunidad, niños y sus padres.</li>
+												<li>- Crea eventos,  troyouts e invita a  los jóvenes talentos a que asistan.</li>
+												<li>- Envía mensajes directamente  a tus seguidores</li>
+												<li>- Evita fraude y falsas ofertas revisando los ratings y comentarios de los miembros</li>"
+"<span>Football </span>Scouts, Agents";"Agentes y Reclutadores <span>De Fútbol</span>"
+"
+												<li>- Access the best football talents all over the world!</li>
+												<li>- Find exactly what you are looking for quickly and easily: You can customize your search by filtering by age, country, position, rating, etc.</li>
+												<li>- Keep eye on the players you like to follow their improvements</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Be connected and engage with other professionals around the world</li>";"<li>- Acceso a los mejores talentos del fútbol en el mundo</li>
+												<li>- Encuentra fácilmente exactamente lo que estás buscando! Puedes usar filtros por edades, país, posición, rating, etc.</li>
+												<li>- Has seguimiento de los mejores jugadores!</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Participa y conéctate con otros profesionales alrededor del mundo</li>"
+
+##########"Clubs, Universities";"Clubs, Universities"
+"<span>Football </span>Clubs, Universities";"Universidades y Clubes <span>De Fútbol</span>"
+"<li>- Promote your club, university, or agency in a football dedicated environment, where all football lovers gather</li>
+												<li>- Directly access and message your fans and followers</li>
+												<li>- Access the best football talents all over the world</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Conduct business with football professionals world wide</li>";"<li>- Promueve tu club, Universidad o agencia en una red especializada en el fútbol, donde los fanáticos del fútbol se reúnen</li>
+												<li>- Envía mensajes directamente  a tus seguidores</li>
+												<li>- Acceso a los mejores talentos del fútbol en el mundo</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Has negocios con profesionales en el fútbol alrededor del mundo</li>"
+"Our team";"Nuestro equipo"
+"Entrepreneurship Carleton-Style: TIM Program Leads the Way";"Entrepreneurship Carleton-Style: TIM Program Leads the Way"
+"Read more...";"Read more..."
+"“Go Global, Hire Local” Matches Technology Venture Teams with Talented Professionals";"“Go Global, Hire Local” Matches Technology Venture Teams with Talented Professionals"
+"Go Global, Hire Local matches young technology entrepreneurs who wish to define and exploit global opportunities with international professionals who possess appropriate skills.";"Go Global, Hire Local matches young technology entrepreneurs who wish to define and exploit global opportunities with international professionals who possess appropriate skills."
+"Carleton Students Present their Startups to Mr. Wes Nicol";"Carleton Students Present their Startups to Mr. Wes Nicol"
+"For student entrepreneurs at Carleton University, there are few people who serve as a greater inspiration than successful businessman and generous philanthropist Wes Nicol.";"For student entrepreneurs at Carleton University, there are few people who serve as a greater inspiration than successful businessman and generous philanthropist Wes Nicol."
+"Carleton Technology Entrepreneurs Show Off Their Startups for Senior Policy Advisers";"Carleton Technology Entrepreneurs Show Off Their Startups for Senior Policy Advisers"
+"Student entrepreneurs in Carleton’s Technology Innovation Management program had a chance to show off their startups during an event attended by senior policy advisers with the Ministry of Research and Innovation.";"Student entrepreneurs in Carleton’s Technology Innovation Management program had a chance to show off their startups during an event attended by senior policy advisers with the Ministry of Research and Innovation."
+"Contact us";"Contáctenos"
+"Address :";"Dirección :"
+"102 St. Patricks Building, 1125 Colonel By Dr, Ottawa, ON K1S 5B6";"102 St. Patricks Building, 1125 Colonel By Dr, Ottawa, ON K1S 5B6"
+"Phone :";"Teléfono :"
+"Press";"Prensa"
+"<span><a href='%s'>Forgot Password?</a></span>";"<span><a href='%s'>¿Olvidó su contraseña?</a></span>"
+"Forgot Password?";"¿Olvidó su contraseña?"
+"request invite";"request invite"
+"Request Invite";"Solicitud Invitar"
+"_CORE_TERMS_OF_SERVICE";"La nueva Red Social  ..."
+"_CORE_PRIVACY_STATEMENT";"Todos los datos son estrictamente confidenciales..."
+"Registered Members";"Usuarios registrados"
+"All Registered Members";"Todos los usuarios registrados"
+"Someone has already registered this email address, please use another one.";"Alguien ha registrado ya un usuario con este correo electrónico, por favor use una nueva dirección para crear la ficha."
+"Register";"Registrarse"
+"Or Sign In Using";"Ó Conéctate con"
+"_EMAIL_CORE_WELCOME_PASSWORD_BODY";"Buenos días [displayname],
+
+Gracias por unirse a la Red Social. Puede acceder pulsando el enlace a continuación y empleando los datos que vienen en este correo para identificarse:
+
+http://[host][object_link]
+
+Correo Electrónico: [email]
+Contraseña: [password]
+
+Un cordial saludo,
+ 
+Administración Red Social"
+"ACTIVITY_TYPE_TAGGED";"Cuando sea identificado en fotos y otros archivos."
+"ACTIVITY_TYPE_LOGIN";"Cuando un usuario se identifica en la Red Social."
+"ANNOUNCEMENT_VIEW_SCRIPTS_ADMINMANAGE_DESCRIPTION";"Los Avisos es una excelente manera de mantener informados a sus usuarios y atentos a los cambios. Aparecen dentro de la ""Widget o Caja de Anuncios"", que puede ubicar donde le plazca en su Red Social. Por defecto, este ""widget"" aparece al principio de la página principal del usuario - de este modo, será lo primero que vean sus usuarios tras identificarse. Puede moverlo o cambiar sus configuraciones en el <a href='%s'>Editor de Aspecto</a>."
+"Add Tag";"Identificar a alguien"
+"No identifier specified";"No se ha especificado identificador"
+"Please sign in to continue..";"Para continuar debe identificarse."
+"Sign In or %1$sJoin%2$s";"Identificarse o %1$sRegistrarse%2$s"
+"CORE_VIEWS_SCRIPTS_ADMINSYSTEM_LOG_DESCRIPTION";"Los Registros del sistema ayudan en la identificación y resolución de errores. Seleccione el registro que desea evaluar."
+"Note: Some blocks won't appear if you're not signed-in or if they don't belong on this page.";"Nota: Algunos bloques no aparecerán si el usuario no se ha identificado o no se les permite visualizar esta página o no pertenecen a esta página."
+"No, visitors must sign in to view member profiles.";"No, los visitantes deben identificarse para acceder a los perfiles de los usuarios."
+"No, visitors must sign in to view the search page.";"No, los visitantes deben identificarse para acceder a la página de búsqueda."
+"No, visitors must sign in to view the main portal page.";"No, los visitantes deben identificarse para acceder a la página principal."
+"No, visitors must sign in to view the members browse page.";"No, los visitantes deben identificarse para acceder a la página con el listado de usuarios."
+"CORE_FORM_ADMIN_SETTINGS_LOCALE_DESCRIPTION";"Seleccione una zona horaria por defecto para su Red Social. Será la zona horaria por defecto que se aplicará a los nuevos usuarios a menos que ellos selecciones una distinta en el proceso de registro, o siempre que no se hayan identificado y naveguen como visitantes. Selecciones el formato de fechas que desea usar en su Red Social. Esto afectará al aspecto con el que se mostrarán en su Red Social todas las fechas y horas."
+"Signup/Login only";"Registro/Identificación Sólo"
+"How long (in seconds) before admins have to reauthenticate?";"Cuánto tiempo (en segundos) antes de que los Administradores deban identificarse de nuevo?"
+"_EMAIL_CORE_WELCOME_BODY";"Buenos días [displayname],
+
+Gracia spor unirse a la Red Social. Pulse el enlace siguiente para entrar e identificarse:
+
+http://[host][object_link]
+
+Correo Electrónico: [email]
+
+Un cordial saludo,
+ 
+Administración Red Social"
+"Unable to find identifiers in text:";"Imposible hallar los identificadores en el texto:"
+"Sign In";"Iniciar sesión"
+"Member Sign In";"Identificación de Usuario"
+"You will use your email address to login.";"Se utilizará como nombre de usuario para identificarse."
+"Hi %1$s!";"Identificado como %1$s"
+"You are already signed in.";"Ya estás identificado."
+"USER_FORM_ADMIN_SIGNUP_APPROVE_DESCRIPTION";"Si ha seleccionado SI los usuarios serán activados automáticamente cuando se registran. Si selecciona NO, deberá aprobarlos manualmente en el apartado ""ver usuarios"". Los usuarios que no se activan no pueden identificarse."
+"USER_FORM_ADMIN_SIGNUP_VERIFYEMAIL_DESCRIPTION";"¿Obligar a los usuarios a que verifiquen su cuenta de correo electrónico antes de poder identificarse? Si indica que SI, los usuarios recibirán un correo electrónico con un enlace de verificación que deben pulsar para activar sus cuentas recién creadas."
+"USER_FORM_AUTH_FACEBOOK_NOACCOUNT";"Se ha aceptado su identificación a través de FaceBook pero no se ha encontrado cuenta asociada. Le gustaría <a href=""%s"">Crear una Cuenta</a>?<br>También puede entrar con una cuenta existente y posteriormente enlazar su cuenta de FaceBook mediante un ajuste de su perfil en el apartado de <a href=""%2$s"">Ajustes</a>."
+"Your password has been reset. Click %s to sign-in.";"Se ha reseteado su contraseña. Pulse %s para identificarse."
+"Linking your Facebook account will give you access to use your Facebook account to log in.";"Enlazar su cuenta de FaceBook le permitirá identificarse con la misma cuando lo desee."
+"Linking your Facebook account will give you access to use your Facebook account to log in and publish to your Facebook account.";"Enlazar su cuenta de FaceBook le permitirá identificarse con la misma cuando lo desee además de publicar en su perfil de FaceBook."
+"Login or Signup";"Identificarse o Registrarse"
+"_EMAIL_NOTIFY_TAGGED_DESCRIPTION";"Se envía al usuario cuando alguien le identifica en una foto."
+"VIDEO_FORM_ADMIN_GLOBAL_VIDEOPERMISSION_DESCRIPTION";"Seleccione si quiere permitir o no al público (visitas a su Red Social que no se identifican) ver la siguiente sección de su Red. En algunos casos (como Perfiles, Blogs y Álbumes), si les ha dado la opción, sus usuarios pueden, no obstante, declararlos privados incluso aunque usted haya establecido que son visibles públicamente. Para más ajustes de este tipo visite la página de Preferencias generales."
+"POLL_FORM_ADMIN_GLOBAL_POLLPUBLIC_DESCRIPTION";"Seleccione si desea que el público (visitas que no se identifican) pueden o no ver las siguientes secciones de su red Social. En algunos casos (tales como Perfiles de usuario, Blogs, Álbumes de Fotos), Si les ha dado la opción, sus usuarios pueden optar por declarar sus páginas privadas aunque usted las haya declarado públicas aquí. Para más ajustes de permisos, visite la página de preferencias generales."
+"You must be logged in.";"Debe estar identificado."
+"MUSIC_FORM_ADMIN_GLOBAL_MUSICPUBLIC_DESCRIPTION";"Seleccione si desea que el público (visitas que no se identifican) puede o no ver las siguientes secciones de su red Social. En algunos casos (tales como Perfiles de usuario, Blogs, Álbumes de Fotos), Si les ha dado la opción, sus usuarios pueden optar por declarar sus páginas privadas aunque usted las haya declarado públicas aquí. Para más ajustes de permisos, visite la página de preferencias generales."
+"Show this advertisement to visitors that are not logged in.";"Mostrar este Anuncio a visitantes que no se han identificado."
+"_EMAIL_CORE_NEWPASSWORD_BODY";"Buenos días [displayname],
+
+Gracias por unirse a la Red Social. Pulse el enlace siguiente e introduzca los detalles proporcionados a continuación para entrar identificarse en la Red Social:
+
+http://[host][object_link]
+
+Correo Electrónico: [email]
+Contraseña: [password]
+
+Un cordial saludo,
+ 
+Administración Red Social"
+"CLASSIFIED_FORM_ADMIN_GLOBAL_CLASSIFIEDPUBLIC_DESCRIPTION";"Seleccione si desea que el público (visitas que no se identifican) pueden o no ver las siguientes secciones de su red Social. En algunos casos (tales como Perfiles de usuario, Blogs, Álbumes de Fotos), Si les ha dado la opción, sus usuarios pueden optar por declarar sus páginas privadas aunque usted las haya declarado públicas aquí. Para más ajustes de permisos, visite la página de preferencias generales."
+"BLOG_FORM_ADMIN_GLOBAL_BLOGPUBLIC_DESCRIPTION";"Seleccione si desea que el público (visitas que no se identifican) pueden o no ver las siguientes secciones de su red Social. En algunos casos (tales como Perfiles de usuario, Blogs, Álbumes de Fotos), Si les ha dado la opción, sus usuarios pueden optar por declarar sus páginas privadas aunque usted las haya declarado públicas aquí. Para más ajustes de permisos, visite la página de preferencias generales."
+"‬Unable to find identifiers in text‭:";"Imposible encontrar identificadores en el texto:‬"
+"Current member's upcoming events.";"Los próximos eventos del usuario que está identificado"
+"Players of the Week";"Players 111 of the Week"
+"Players of the Week";"Jugador de la semana"
+"Add Talks";"Add Talks"
+"talks";"discusiones"
+"Talks";"Discusiones"
+"Trending Talks";"Trending Talks"
+"My Talks";"My Talks"
+"Favored Talks";"Favored Talks"
+"CORE_FORM_ADMIN_SETTINGS_TASKS_DESCRIPTION";"<em>Éstas son donfiguraciones avanzadas; le recomendamos modificarlas sólo si se siente familiarizado con estas  funciones o nuestro equipo de soporte le ha indicado cómo llevarlas a cabo.</em><br /> Trigger methods:<br /> - cURL y Socket son los recomendados por defecto; envían una petición HTTP asíncrona. <br /> - Javascript emplea una llamada Ajax; es útil para servidores donde Socket o cURL no funcionan y Cron no está disponible. <br /> - Cron requiere configuración en crontab o programador de tareas en Windows.<br /> - Fork emplea fork() system call en sistemas Unix."
+"_EMAIL_NOTIFY_EVENT_INVITE_TITLE";"Invitación a Evento"
+"Advanced Search";"Búsqueda avanzada"
+"advanced ";"Avanzando"
+"Continent";"Continente"
+"professionals";"professionals"
+"Professionals Only";"Professionals Only"
+"Followers & Professionals";"Followers & Professionals"
+"<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>";"<li>- Sube tus mejores videos y verás lo fácil que es ser descubierto por escuelas de futbol, universidades, clubes y reclutadores a rededor del mundo</li>
+												<li>- Obtén los mejores contratos y becas</li>
+												<li>- Regístrate para los tryouts y eventos que organizan las escuelas de futbol, clubes, universidades y reclutadores</li>
+												<li>- Evita fraude y falsas ofertas revisando los ratings y comentarios de los reclutadores</li>
+												<li>- Conéctate con otros jugadores y profesionales: comparte experiencias, aprende y recibe consejos</li>"
+"<li>- Access the best football talents all over the world!</li>
+												<li>- Find exactly what you are looking for quickly and easily: You can customize your search by filtering by age, country, position, rating, etc.</li>
+												<li>- Keep eye on the players you like to follow their improvements</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Be connected and engage with other professionals around the world</li>";"<li>- Acceso a los mejores talentos del futbol en el mundo</li>
+												<li>- Encuentra fácilmente exactamente lo que estás buscando! Puedes usar filtros por edades, país, posición, rating, etc.</li>
+												<li>- Has seguimiento de los mejores jugadores!</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Participa y conéctate con otros profesionales alrededor del mundo</li>"
+"<li>- Promote your club, university, or agency in a football dedicated environment, where all football lovers gather</li>
+												<li>- Directly access and message your fans and followers</li>
+												<li>- Access the best football talents all over the world</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Conduct business with football professionals world wide</li>";"<li>- Promueve tu club, Universidad o agencia en una red especializada en el futbol, donde los fanáticos del futbol se reúnen</li>
+												<li>- Envía mensajes directamente  a tus seguidores</li>
+												<li>- Acceso a los mejores talentos del fútbol en el mundo</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Has negocios con profesionales en el fútbol alrededor del mundo</li>"
+"Professional";"Profesionales"
+"Professional Rating: ";"Professional Rating: "
+"professional account";"Cuenta profesional"
+"
+												<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>";"<li>- Sube tus mejores videos y verás lo fácil que es ser descubierto por escuelas de futbol, universidades, clubes y reclutadores a rededor del mundo</li>
+												<li>- Obtén los mejores contratos y becas</li>
+												<li>- Regístrate para los tryouts y eventos que organizan las escuelas de futbol, clubes, universidades y reclutadores</li>
+												<li>- Evita fraude y falsas ofertas revisando los ratings y comentarios de los reclutadores</li>
+												<li>- Conéctate con otros jugadores y profesionales: comparte experiencias, aprende y recibe consejos</li>"
+"
+												<li>- Access the best football talents all over the world!</li>
+												<li>- Find exactly what you are looking for quickly and easily: You can customize your search by filtering by age, country, position, rating, etc.</li>
+												<li>- Keep eye on the players you like to follow their improvements</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Be connected and engage with other professionals around the world</li>";"<li>- Acceso a los mejores talentos del futbol en el mundo</li>
+												<li>- Encuentra fácilmente exactamente lo que estás buscando! Puedes usar filtros por edades, país, posición, rating, etc.</li>
+												<li>- Has seguimiento de los mejores jugadores!</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Participa y conéctate con otros profesionales alrededor del mundo</li>"
+"%s view";"% vistos";"%s vistos"
+"Tags (Keywords)";"Palabras (etiquetas) que mejor lo describen"
+"Page Keywords <span>(meta tag)</span>";"Palabras clave de la página <span>(meta tag)</span>"
+"Site Keywords";"Palabras clave que definen su Red Social"
+"CORE_FORM_ADMIN_SETTINGS_GENERAL_SITEKEYWORDS_DESCRIPTION";"Facilite algunas palabras clave (separadas por comas) que mejor describan su Red Social. Serán las <meta> tags que aparecerán por defecto en la cabecera de la página. Incluya las más relevantes de modo que ayuden a una mejor valoración de su Red Social por parte de los motores de búsqueda."
+"Keyword";"Palabra clave"
+"keyword...";"keyword..."
+"Province/State";"Provincia/Estado"
+"Professional Rating: ";"Calificación profesional: "
+"Popular Albums";"Álbumes más vistos"
+"%s view";"% visualizalizaciones";"%s visualizalizaciones"
+"Popular Videos";"Vídeos más vistos"
+"View more result";"ver más resultados"
+"Player Card Privacy";"Player Card Privacy"
+"<li>- Promote your organization and students, and show the world what you stand for!</li>
+												<li>- Create player profile for each student and upload his/her videos and information</li>
+												<li>- Be engaged with your community, kids, and their parents</li>
+												<li>- Create events and tryouts and invite people to join</li>
+												<li>- Directly send message your followers</li>
+												<li>- Avoid fraud by checking the ratings and reviews of scouts</li>";"<li>- Promueve tu organización, tus estudiantes y muestra al mundo tu trabajo</li>
+												<li>- Crea un perfil para cada uno de tus jugadores y sube sus mejores videos e información</li>
+												<li>- Participa activamente con tu comunidad, niños y sus padres.</li>
+												<li>- Crea eventos,  troyouts e invita a  los jóvenes talentos a que asistan.</li>
+												<li>- Envía mensajes directamente  a tus seguidores</li>
+												<li>- Evita fraude y falsas ofertas revisando los ratings y comentarios de los miembros</li>"
+"<li>- Promote your club, university, or agency in a football dedicated environment, where all football lovers gather</li>
+												<li>- Directly access and message your fans and followers</li>
+												<li>- Access the best football talents all over the world</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Conduct business with football professionals world wide</li>";"<li>- Promueve tu club, Universidad o agencia en una red especializada en el fútbol, donde los fanáticos del fútbol se reúnen</li>
+												<li>- Envía mensajes directamente  a tus seguidores</li>
+												<li>- Acceso a los mejores talentos del fútbol en el mundo</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Has negocios con profesionales en el fútbol alrededor del mundo</li>"
+"Player";"Jugador"
+"Add Player Card";"Add Player Card"
+"players";"Jugadores"
+"add new player card";"add new player card"
+"Add New Player Card";"Add New Player Card"
+"Who can view this player";"Who can view this player"
+"%s of submitted player cards that match the campaign preferences";"%s of submitted player cards that match the campaign preferences"
+"%s of player cards that match the campaign preferences";"%s of player cards that match the campaign preferences"
+"Allow users to submit their player";"Allow users to submit their player"
+"Yes, allow users to submit their players.";"Yes, allow users to submit their players."
+"No, do not allow users to submit their players.";"No, do not allow users to submit their players."
+"Edit Player Submission";"Edit Player Submission"
+"Choose the player that you want to edit";"Choose the player that you want to edit"
+"Player Photo";"Player Photo"
+"Player Video";"Player Video"
+"Withdraw Player";"Withdraw Player"
+"Choose player that you want to withdraw";"Choose player that you want to withdraw"
+"Players";"Players"
+"No players have been created.";"No players have been created."
+"Delete Player Card";"Delete Player Card"
+"Are you sure you want to delete this player card?";"Are you sure you want to delete this player card?"
+"Player card deleted.";"Player card deleted."
+"The player card can not be found.";"The player card can not be found."
+"The player card already in your eye on list.";"The player card already in your eye on list."
+"Player Card Settings";"Player Card Settings"
+"Maximum Allowed Player Cards";"Maximum Allowed Player Cards"
+"Enter the maximum number of allowed player cards. The field must contain an integer, use zero for unlimited.";"Enter the maximum number of allowed player cards. The field must contain an integer, use zero for unlimited."
+"Your members can choose from any of the options checked below when they decide who can see their player card. If you do not check any options, settings will default to the last saved configuration. If you select only one option, members of this level will not have a choice.";"Your members can choose from any of the options checked below when they decide who can see their player card. If you do not check any options, settings will default to the last saved configuration. If you select only one option, members of this level will not have a choice."
+"Player Card - Relation";"Player Card - Relation"
+"
+												<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>";"<li>- Sube tus mejores videos y verás lo fácil que es ser descubierto por escuelas de fútbol, universidades, clubes y reclutadores a rededor del mundo</li>
+												<li>- Obtén los mejores contratos y becas</li>
+												<li>- Regístrate para los tryouts y eventos que organizan las escuelas de fútbol, clubes, universidades y reclutadores</li>
+												<li>- Evita fraude y falsas ofertas revisando los ratings y comentarios de los reclutadores</li>
+												<li>- Conéctate con otros jugadores y profesionales: comparte experiencias, aprende y recibe consejos</li>"
+"
+												<li>- Promote your organization and students, and show the world what you stand for!</li>
+												<li>- Create player profile for each student and upload his/her videos and information</li>
+												<li>- Be engaged with your community, kids, and their parents</li>
+												<li>- Create events and tryouts and invite people to join</li>
+												<li>- Directly send message your followers</li>
+												<li>- Avoid fraud by checking the ratings and reviews of scouts</li>";"<li>- Promueve tu organización, tus estudiantes y muestra al mundo tu trabajo</li>
+												<li>- Crea un perfil para cada uno de tus jugadores y sube sus mejores videos e información</li>
+												<li>- Participa activamente con tu comunidad, niños y sus padres.</li>
+												<li>- Crea eventos,  troyouts e invita a  los jóvenes talentos a que asistan.</li>
+												<li>- Envía mensajes directamente  a tus seguidores</li>
+												<li>- Evita fraude y falsas ofertas revisando los ratings y comentarios de los miembros</li>"
+"
+												<li>- Access the best football talents all over the world!</li>
+												<li>- Find exactly what you are looking for quickly and easily: You can customize your search by filtering by age, country, position, rating, etc.</li>
+												<li>- Keep eye on the players you like to follow their improvements</li>
+												<li>- Create events & tryouts and invite players to join and submit their profiles</li>
+												<li>- Be connected and engage with other professionals around the world</li>";"<li>- Acceso a los mejores talentos del fútbol en el mundo</li>
+												<li>- Encuentra fácilmente exactamente lo que estás buscando! Puedes usar filtros por edades, país, posición, rating, etc.</li>
+												<li>- Has seguimiento de los mejores jugadores!</li>
+												<li>- Crea eventos y tryouts! Invita a los jugadores a que participen o envíen su perfil</li>
+												<li>- Participa y conéctate con otros profesionales alrededor del mundo</li>"
+"Manage Ad Campaigns";"Administrar Anuncios"
+"CORE_VIEWS_SCRIPTS_ADMINADS_INDEX_DESCRIPTION";"Mostrar Anuncios es una manera excelente de rentabilizar su Red Social. Al crear campañas publicitarias, puede decidir dónde exactamente se van a mostrar sus anuncios, cuánto tiempo se mostrarán y a quienes se mostrarán. La clave para generar ingresos de su Red Social es crear campañas dirigidas a grupos concretos. Esto es, debería hacer un esfuerzo por mostrar anuncios específicos a usuarios en función de sus intereses o características personales (por ejemplo: la información que consta en su perfil). Para conseguir esto, las campañas se pueden dirigir a niveles de usuarios concretos y/o a Redes específicas."
+"You currently have no advertising campaigns.";"No tienen campañas publicitarias por el momento."
+"CORE_VIEWS_SCRIPTS_ADMINADS_MANAGEADS_DESCRIPTION";"Mostrar Anuncios es una manera excelente de rentabilizar su Red Social. Al crear campañas publicitarias, puede decidir dónde exactamente se van a mostrar sus anuncios, cuánto tiempo se mostrarán y a quienes se mostrarán. La clave para generar ingresos de su Red Social es crear campañas dirigidas a grupos concretos. Esto es, debería hacer un esfuerzo por mostrar anuncios específicos a usuarios en función de sus intereses o características personales (por ejemplo: la información que consta en su perfil). Para conseguir esto, las campañas se pueden dirigir a niveles de usuarios concretos y/o a Redes específicas."
+"campaigns";"Campañas"
+"Campaigns";"Campañas"
+"Search Campaigns...";"Buscar Campañas..."
+"all sport types";"Todos los Deportes"
+"Sport Type";"Tipo de deporte"
+"Write New Entry";"Escribir un nuevo Artículo"
+"Click ""Add Video"" to select a video from your computer. After you have selected video, click on Post Video at the bottom to begin uploading the file. Please wait while your video is being uploaded. When your upload is finished, your video will be processed - you will be notified when it is ready to be viewed.";"Pulse en ""Añadir vídeo"" para seleccionar un vídeo desde su ordenador. Después de haber seleccionado el vídeo, pulse en Publicar vídeo en la parte inferior para comenzar con el envío del fichero. Por favor, espere mientras el vídeo se sube completamente. Una vez ha sido subido, se procesará - será informado cuando esté listo para su visionado"
+"Add Talks";"Agregar discución"
+"Email Address Verification With Password";"Verificación de Correo Electrónico con Contraseña"
+"_EMAIL_CORE_VERIFICATION_DESCRIPTION";"Este es el correo que se envía al usuario cuando usted ha optado por NO generar contraseñas aleatorias."
+"_EMAIL_CORE_VERIFICATION_PASSWORD_TITLE";"Verificación de Correo Electrónico con Contraseña"
+"_EMAIL_CORE_VERIFICATION_PASSWORD_DESCRIPTION";"Este es el correo que se envía al usuario para verificar su correo electrónico cuando usted ha seleccionado generar contraseñas aleatorias.
+<br />
+<br />
+Variables disponibles:
+<br />
+[displayname],[email],[link],[password]"
+"_EMAIL_CORE_VERIFICATION_PASSWORD_BODY";"Buenos días [displayname],
+
+Gracias por unirse a la Red Social. Pasa verificar el correo electrónico y continuar pulse el enlace siguiente:
+http://[host][object_link]
+
+Correo Electrónico: [email]
+Contraseña: [password]
+
+Un cordial saludo,
+ 
+Administración Red Social"
+"_EMAIL_CORE_WELCOME_PASSWORD_DESCRIPTION";"Este es el correo que se envía al usuario cuando se registra y se ha activado la opción de generar contraseñas aleatorias. Tenga en cuenta que si tiene activada la verificación de correo electrónico, la variable passwd no estará disponible. Esto es debido a que las contraseñas se encriptan de forma segura tras el registro y no pueden ser desencriptadas cuando un usuario verifica su correo electrónico y se envía el correo de bienvenida.
+<br />
+<br />
+Variables disponibles:
+<br />
+[displayname],[email],[password],[link]"
+"{item:$subject} has added a new profile photo.";"{item:$subject} ha añadido una nueva foto del perfil."
+"Add New Photos";"Añadir nuevas fotos"
+"Add More Photos";"Añadir más fotos"
+"ADD TAG";"Añadir Etiqueta"
+"Added";"Añadido"
+"Choose photos on your computer to add to this album.";"Seleccione las fotos de su equipo que desea incorporar a este Álbum."
+"Add Photo";"Añadir foto"
+"Add Category";"Añadir Categoría"
+"Add New Category";"Añadir nueva categoría"
+"{item:$subject} added {var:$count} photo(s) to the album {item:$object}:";"{item:$subject} añadió {var:$count} foto(s) a el álbum {item:$object}:"
+"_STORAGE_UPLOAD_DESCRIPTION";"Pulse en ""Añadir fotos"" para seleccionar una o más fotos de su ordenador. Una vez ha seleccionado las fotos, empezarán a subirse inmediatamente. Cuando haya terminado, pulse el botón debajo del listado de fotos subidas para guardarlas n su álbum de fotos."
+"Add Photos";"Añadir fotos"
+"Add Member Level";"Añadir Nivel de Usuario"
+"_BLOG_FORM_STYLE_DESCRIPTION";"Puede modificar los colores, estilos y fuentes de su blog añadiendo código CSS en el campo de abajo. El contenido de este campo se trasladará a las etiquetas <style> de su Blog."
+"Your members can choose from any of the options checked below when they decide who can see their blog entries. These options appear on your members' ""Add Entry"" and ""Edit Entry"" pages. If you do not check any options, everyone will be allowed to view blogs.";"Sus usuarios pueden decidir de entre las opciones a continuación quién o quiénes pueden ver sus blogs. Estas opciones aparecerán en las opciones de ""Añadir Artículo"" y de ""Editar Artículo"". Si no marca ninguna de las opciones, todos estarán autorizados a ver los Blogs."""
+"CORE_FORM_ADMIN_ADS_CREATE_LIMITCTR_DESCRIPTION";"Si especifica un CTR mínimo (el ratio de clics por impresión del anuncio) y la campaña se sitúa por debajo de ese CTR, la campaña finalizará. Si decide especificar un límite mínimo de CTR, debería introducirlo como un porcentaje de clics por impresión (por ejemplo 0.05%). Para crear una campaña en la que esto no se defina, no defina límites y terminará cuando usted lo decida."
+"Create New Campaign";"Crear campaña nueva"
+"Create Advertising Campaign";"Crear campaña publicitaria"
+"Follow this guide to design and launch a new advertising campaign.";"Siga esta guía para diseñar y lanzar una nueva campaña publicitaria."
+"Campaign Name";"Nombre de campaña"
+"Don't end this campaign on a specific date.";"No terminar esta campaña en una fecha concreta."
+"End this campaign on a specific date.";"Finalizar en una fecha concreta."
+"The campaign will end when this number of views is reached. Enter ""0"" for unlimited views.";"La campaña finalizará cuando se alcance este número de impresiones. Introduzca ""0"" para ilimitado."
+"The campaign will end when this number of clicks is reached. Enter ""0"" for unlimited clicks.";"La campaña finalizará cuando se alcance este número de clics. Introduzca ""0"" para ilimitado."
+"CORE_FORM_ADMINS_ADS_CREATE_ADLEVELS_DESCRIPTION";"Especifique a qué niveles de Usuario se mostrarán los anuncios de esta campaña. Para mostrarlos a todos los niveles de usuarios, déjelos todos seleccionados. Mantenga la tecla CTRL pulsada para seleccionar o deseleccionar varios Niveles de Usuario."
+"CORE_FORM_ADMINS_ADS_CREATE_ADNETWORKS_DESCRIPTION";"Especifique a qué Redes se mostrarán los anuncios de esta campaña. Para mostrarlos a todas las Redes, déjelas todas seleccionadas. Mantenga la tecla CTRL pulsada para seleccionar o deseleccionar varias Redes."
+"Create Campaign";"Crear Campaña"
+"Edit Advertising Campaign";"Editar campaña publicitaria"
+"Editing Ad Campaign";"Editar campaña publicitaria"
+"There are no advertisements added to this campaign.";"No se han añadido anuncios a esta campaña."
+"Ad Campaign Deleted";"Campaña publicitaria borrada"
+"Ad Campaign";"Campaña Publicitaria"
+"Search Campaign";"Buscar Campaña"
+"My Campaigns";"Mi Campaña"
+"Campaign";"Campaña"
+"Campaign:";"Campaña"
+"All Campaigns";"Todas las Campañas"
+"Don\'t have any campaigns.";"No tienes ninguna Campaña"
+"Select Campaign";"Elegir Campaña"
+"Create a New Campaign";"Crear nueva Campaña"
+"Add Campaign";"Agregar Campaña"
+"I am his/her Coach, Agent, Campaign";"I am his/her Coach, Agent, Campaign"
+"Add Player Card";"Añadir Player Card"
+"Add Talks";"Agregar discusión"
+"Add Talk";"Agregar discusión"
+"Find/Invite Friend";"Buscar/Invitar a amigos"
+"Sport Position";"Posición del jugador"
+"My Campaigns";"Mis Campañas"
+"Add Campaign";"Crear Campaña"
+"Add Event/Tryout";"Crear Evento/Pruebas"
+"Add Event/Tryout";"Crear Evento/Pruebas (tryouts)"
+"By age";"Por edad"
+"View By Date";"Ver por edad"
+"Search by date of:";"Buscar por edad"
+"Sort by date";"Filtrar por edad"
+"By date";"Por edad"
+"Feed Item Filtering";"Filtrado de referencias"
+"ACTIVITY_FORM_ADMIN_SETTINGS_GENERAL_FILTER_DESCRIPTION";"¿Desea que sus usuarios puedan decidir qué tipo de titulares quieren ver en los titulares principales? Si activa esta posibilidad, los usuarios podrán especificar que clase de referencias y titulares quieren y no quieren ver cuando acceden a su cuenta."
+"ALBUM_VIEWS_SCRIPTS_ADMINMANAGE_INDEX_DESCRIPTION";"Esta página muestra todos los Álbumes de Fotos creados por sus usuarios. Puede emplearla para monitorizarlas y borrar, si se da el caso, material inapropiado. Introduzca un criterio de búsqueda en el campo de búsqueda para buscar Álbumes de Fotos concretas. Si deja el campo en blanco se mostrarán todos los Álbumes de Fotos"
+"BLOG_VIEWS_SCRIPTS_ADMINMANAGE_INDEX_DESCRIPTION";"Aquí se listan todas las entradas al Blog de los usuarios de la Red Social. Puede usarse esta página para monitorizarlos y borrar aquellos que, en su caso, no fueran apropiados. Mediante el filtro puede encontrar Blogs específicos, Si se deja en Blanco se mostrarán todos los Blogs de la Red Social."
+"Filter By";"Filtrar por"
+"Please select the type of log you wish to view from the filter above.";"Seleccione el tipo de informe que dese visualizar utilizando el menu de abajo."
+"CORE_VIEWS_SCRIPTS_ADMINSTATS_INDEX_DESCRIPTION";"Esté al día del pulso de su red Social con estas Estadísticas Globales. Puede seleccionar mediante los filtros facilitados distintos parámetros y el cambio en diferentes intervalos de tiempo."
+"Filter";"Filtrar"
+"GROUP_VIEWS_SCRIPTS_ADMINMANAGE_INDEX_DESCRIPTION";"Esta página muestra todos los  Grupos creados por sus usuarios. Puede emplearla para monitorizarlos y borrar, si se da el caso, material inapropiado. Introduzca un criterio de búsqueda en el campo de búsqueda para buscar  Grupos específicos. Si deja el campo en blanco se mostrarán todos los  Grupos."
+"Start typing to filter...";"Comience a escribir para filtrar..."
+"VIDEO_VIEWS_SCRIPTS_ADMINMANAGE_INDEX_DESCRIPTION";"Esta página muestra una lista de todos los vídeos que han sido publicados por sus usuarios. Puede emplear esta página para monitorizarlos y eliminar material inapropiado si se da el caso. Eligiendo un criterio de búsqueda en el campo le ayudará a seleccionar vídeos específicos. Si deja el campo en blanco, se le mostrarán todos los vídeos subidos a su Red Social."
+"Search Filters";"Buscar con Filtros"
+"Filters";"Filtros"
+"‭""‬Filter‭""";"‬Filtro‬"
+"Add Player Card";"Crear Player Card"
+"search result";"search result"
+"";""
+"Show this album in search results";"Mostrar este Álbum en los resultados de búsqueda"
+"Show this blog entry in search results";"Mostrar este artículo en los resultados de búsqueda"
+"Include in search results?";"¿Incluir en los resultados de búsqueda?"
+"Yes, include in search results.";"Sí, incluir en los resultados de búsqueda."
+"No, hide from search results.";"No, ocultar en los resultados de búsqueda."
+"USER_FORM_ADMIN_SETTINGS_LEVEL_SEARCH_DESCRIPTION";"Si se indica que ""sí"", los usuarios podrán excluirse a sí mismos de los resultados de búsqueda y el listado de miembros de la página principal (tales como entradas recientes, etc...). En caso contrario todos los usuarios serán incluidos en los resultados de búsqueda."
+"Show this video in search results";"Mostrar este vídeo en los resultados de búsqueda"
+"Show this talk entry in search results";"Show this talk entry in search results"
+"search result";"Resultado de Búsqueda"
+"Show this playlist in search results";"Mostrar esta recopilación en los resultados de búsqueda"
+"Show this poll in search results";"Mostrar esta encuesta en los resultados de búsqueda"
