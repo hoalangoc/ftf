@@ -886,12 +886,12 @@ class User_Api_Core extends Core_Api_Abstract
 			case 'group':
 			case 'tfcampaign_campaign':
 			case 'user':
-				if (in_array($item->user_id, $ids)) $result = true;
+				if (isset($item->user_id) && in_array($item->user_id, $ids)) $result = true;
 				break;
 				
 			case 'video':
 			case 'blog':
-				if (in_array($item->owner_id, $ids)) $result = true;
+				if (isset($item->owner_id) && in_array($item->owner_id, $ids)) $result = true;
 				break;
 		}
 		

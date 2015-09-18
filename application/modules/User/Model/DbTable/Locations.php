@@ -28,7 +28,6 @@ class User_Model_DbTable_Locations extends Engine_Db_Table {
 		}
 		return $arr;
 	}
-	
 	public function getConuntyIdByName($name = '')
 	{
 		$select = $this->select()->where('title LIKE ?', $name)->where('level = ?', 0)->limit(1);

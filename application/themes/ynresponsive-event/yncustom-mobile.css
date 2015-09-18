@@ -148,7 +148,6 @@
 		display: -moz-box;
         display: -webkit-box;
         display: box;		
-		width: 100%;
 	}
 
 	div.tabs_alt > ul > li {
@@ -656,5 +655,3 @@
         width: 100%;
     }
  }
- 
- @include "responsive-fixed.css";

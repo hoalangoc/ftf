@@ -40,6 +40,9 @@
       lassoCrop.destroy();
       $('CropPhoto').submit();
     }
-    window.addEvent('domready', function(){lassoStart();});
+    jQuery(window).load(function()
+    {
+		lassoStart();
+    });
   </script>
 <?php endif; ?>

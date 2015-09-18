@@ -5,7 +5,7 @@
     'host' => 'localhost',
     'username' => 'tarfeetest',
     'password' => 'Bzl06~n6',
-    'dbname' => 'tarfee_test_01',
+    'dbname' => 'tarfeeonline_prodDB01',
     'charset' => 'UTF8',
     'adapterNamespace' => 'Zend_Db_Adapter',
   ),

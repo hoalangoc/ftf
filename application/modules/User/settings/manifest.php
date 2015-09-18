@@ -109,7 +109,7 @@ return array(
     'user_playercard',
     'user_photo',
     'user_inviterequest',
-    'user_membershiprequest'
+     'user_membershiprequest'
   ),
   // Routes --------------------------------------------------------------------
   'routes' => array(

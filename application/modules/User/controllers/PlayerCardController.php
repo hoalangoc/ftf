@@ -539,6 +539,25 @@ class User_PlayerCardController extends Core_Controller_Action_Standard
 		echo $html;
 		return;
 	}
+	public function finalizeUrl($url)
+	{
+		if ($url)
+		{
+			if (strpos($url, 'https://') === FALSE && strpos($url, 'http://') === FALSE)
+			{
+				$pageURL = 'http';
+				if (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on")
+				{
+					$pageURL .= "s";
+				}
+				$pageURL .= "://";
+				$pageURL .= $_SERVER["SERVER_NAME"];
+				$url = $pageURL . '/'. ltrim( $url, '/');
+			}
+		}
+	
+		return $url;
+	}
 
 	public function viewAction()
 	{
@@ -557,6 +576,11 @@ class User_PlayerCardController extends Core_Controller_Action_Standard
 			return $this -> _helper -> requireAuth() -> forward();
 		}
 		
+		$view = Zend_Registry::get('Zend_View');
+    	$view->doctype('XHTML1_RDFA');
+		if($playerCard->photo_id)
+			$view->headMeta() -> setProperty('og:image', $this -> finalizeUrl($playerCard->getPhotoUrl()));
+		
 		// Check if edit/delete is allowed
 		$this -> view -> can_edit = $can_edit = $this -> _helper -> requireAuth() -> setAuthParams($playerCard, null, 'edit') -> checkRequire();
 		$this -> view -> can_delete = $can_delete = $this -> _helper -> requireAuth() -> setAuthParams($playerCard, null, 'delete') -> checkRequire();
@@ -570,7 +594,7 @@ class User_PlayerCardController extends Core_Controller_Action_Standard
 
 	public function cropPhotoAction()
 	{
-		$this -> view -> user = $user = Engine_Api::_() -> core() -> getSubject();
+		$this -> view -> playerCard = $playerCard = Engine_Api::_() -> core() -> getSubject();
 		$this -> view -> viewer = $viewer = Engine_Api::_() -> user() -> getViewer();
 
 		// Get form
@@ -590,8 +614,8 @@ class User_PlayerCardController extends Core_Controller_Action_Standard
 		{
 			$storage = Engine_Api::_() -> storage();
 
-			$iMain = $storage -> get($user -> photo_id, 'thumb.main');
-			$iProfile = $storage -> get($user -> photo_id, 'thumb.profile');
+			$iMain = $storage -> get($playerCard -> photo_id, 'thumb.main');
+			$iProfile = $storage -> get($playerCard -> photo_id, 'thumb.profile');
 
 			// Read into tmp file
 			$pName = $iMain -> getStorageService() -> temporary($iMain);

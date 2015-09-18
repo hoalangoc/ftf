@@ -27,6 +27,8 @@ class Core_IndexController extends Core_Controller_Action_Standard {
 			return $this -> _helper -> redirector -> gotoRoute(array(), 'user_home', true);
 		}
 		 */
+
+		
 		// Languages
 	    $translate    = Zend_Registry::get('Zend_Translate');
 	    $languageList = $translate->getList();

@@ -34,13 +34,8 @@
     </span>
   </div>
 <?php return; endif; ?>
-<?php $payment_settings = Engine_Api::_()->getApi('settings', 'core')->payment;
-$action = 'confirm';
-if(isset($payment_settings['disableUpgrade']) && $payment_settings['disableUpgrade'] == 1)
-{
-	$action = 'contact-us';
-}?>
-<form method="get" action="<?php echo $this->escape($this->url(array('action' => $action))) ?>"
+
+<form method="get" action="<?php echo $this->escape($this->url(array('action' => 'confirm'))) ?>"
       class="global_form payment_form_settings" enctype="application/x-www-form-urlencoded">
   <div>
     <div>

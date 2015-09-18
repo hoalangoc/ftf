@@ -445,7 +445,7 @@ jQuery.ui.slider.prototype.widgetEventPrefix = 'slider';
 			var continent = $(this).val();
 			var type = $(this).attr('rel');
 			$.ajax({
-	  			url: "<?php echo $this->url(array('action'=>'get-countries'),'user_general', true)?>/continent/"+continent,
+	  			url: "<?php echo $this->url(array('action'=>'get-countries'),'user_general', true)?>?continent="+continent,
 	  			success : function (respone){
 					respone  = $.trim(respone);
 					var option = $('<option />', {

@@ -1,9 +1,7 @@
 "_EMAIL_USER_EMAIL_TO_FRIEND_SUBJECT";"Message from [sender_title] at Tarfee"
-"_EMAIL_USER_EMAIL_TO_FRIEND_BODYHTML";"[header]<br> <br> [message]<br> <br> <strong>[footer]</strong>"
+"_EMAIL_USER_EMAIL_TO_FRIEND_BODY";"[header]<br> <br> [message]<br> <br> <strong>[footer]</strong>"
 "_EMAIL_NOTIFY_YNVIDEO_PROCESSED_SUBJECT";"Your video ""[object_title]"" is ready"
-"_EMAIL_NOTIFY_YNVIDEO_PROCESSED_BODYHTML";"[header]<br> <br> Your video ""<strong>[object_title]</strong>"" was uploaded successfully and ready to be viewed. You can use or click the following link to share or watch it:<br> <br> http://[host][object_link]<br> <br> [footer]"
-"_EMAIL_INVITE_SUBJECT";"You have received an invitation to join [host]."
-"_EMAIL_INVITE_BODYHTML";"[header]<br> <br> You have been invited by&nbsp;<strong>[sender_title]</strong> to join <strong>[host]</strong>. To register, please follow the link below:<br>http://[host][object_link]<br> <br><br><strong>Note</strong>&nbsp;(if any)<strong>:</strong><br>[message]<br><br> <br> [footer]<br><br>"
+"_EMAIL_NOTIFY_YNVIDEO_PROCESSED_BODY";"[header]<br> <br> Your video ""<strong>[object_title]</strong>"" was uploaded successfully and ready to be viewed. You can use or click the following link to share or watch it:<br> <br> http://[host][object_link]<br> <br> [footer]"
 "_CORE_TERMS_OF_SERVICE";"TARFEE INC. (“TARFEE”) OWNS AND OPERATES THE WEBSITE LOCATED AT www.TARFEE.com (“Website”). THESE TERMS OF USE APPLY TO ALL USERS OF THE WEBSITE, INCLUDING USERS WHO UPLOAD ANY MATERIALS TO THE WEBSITE, USERS WHO USE SERVICES PROVIDED THROUGH THIS WEBSITE, AND USERS WHO SIMPLY VIEW THE CONTENT ON OR AVAILABLE THROUGH THIS WEBSITE.   
 
 BY USING THIS WEBSITE YOU INDICATE YOUR ACCEPTANCE OF THESE TERMS OF USE. IF YOU DO NOT ACCEPT THESE TERMS OF USE, THEN DO NOT USE THIS WEBSITE OR ANY OF ITS CONTENT OR SERVICES.  THESE TERMS OF USE MAY BE AMENDED OR UPDATED BY TARFEE FROM TIME TO TIME WITHOUT NOTICE AND THE TERMS OF USE MAY HAVE CHANGED SINCE YOUR LAST VISIT TO THIS WEBSITE.  IT IS YOUR RESPONSIBILITY TO REVIEW THESE TERMS OF USE FOR ANY CHANGES.  YOUR USE AFTER ANY AMENDMENTS OR UPDATES OF THESE TERMS OF USE SHALL SIGNIFY YOUR ASSENT TO AND ACCEPTANCE OF SUCH REVISED TERMS.  ANY NEW FEATURES THAT MAY BE ADDED TO THIS WEBSITE FROM TIME TO TIME WILL BE SUBJECT TO THESE TERMS OF USE, UNLESS STATED OTHERWISE.  YOU SHOULD VISIT THIS PAGE PERIODICALLY TO REVIEW THESE TERMS OF USE.
@@ -308,8 +306,8 @@ following Callback URL: %2$s"
 "You can not write recommendation for this user.";"You can not write recommendation for this user."
 "Write recommendation successfully.";"Write recommendation successfully."
 "Are you sure you want to remove this member as a follower?";"Are you sure want to unfollow this user?"
-"My Preferred Sports";"Sport I follow:"
-"My Preferred Sport Clubs";"Club I support:"
+"My Preferred Sports";"Sports I follow:"
+"My Preferred Sport Clubs";"Clubs I follow:"
 "CORE_FORM_ADMIN_ADS_CREATE_LIMITCTR_DESCRIPTION";"If you specify a minimum CTR (click-through ratio, which is the ratio of clicks to views) and the campaign's CTR goes below your limit, the campaign will end. If you decide to specify a minimum CTR limit, you should enter it as a percentage of clicks to views (e.g. 0.05%). To create a campaign with no definite end, don't specify limits and your campaign will continue until you choose to end it."
 "End time cannot be before start time";"End Date/Time cannot be earlier than (before) Start Date/Time."
 "Start Time";"Start Date (*)"
@@ -326,11 +324,17 @@ following Callback URL: %2$s"
 "Take me to my profile settings.";"Go to Profile Settings"
 "Take me to Main Page, I will update my profile later.";"Go to Main Page"
 "_EMAIL_NOTIFY_TFCAMPAIGN_ALERT_PLAYER_SUBJECT";"([sender_title]) is matching a Campaign"
-"_EMAIL_NOTIFY_TFCAMPAIGN_ALERT_PLAYER_BODYHTML";"[header]<br> <br> Your player <strong>[sender_title]</strong> is matching a new campaign ([object_title]).<br> <br> Click on the following link for more details: http://[host][object_link].<br> <br> [footer]"
-"_EMAIL_CORE_WELCOME_SUBJECT";"Welcome to [host]"
-"_EMAIL_CORE_WELCOME_BODYHTML";"[header]<br> <br> Thank you for joining <strong>[host]</strong>. Click the following link and enter your information below to login:<br> <br> http://[host][object_link]<br> <br> Email: [email]<br> <br> [footer]"
-"_EMAIL_CORE_WELCOME_PASSWORD_SUBJECT";"Welcome to [host]"
-"_EMAIL_CORE_WELCOME_PASSWORD_BODYHTML";"[header]<br> <br> Thank you for joining <strong>[host]</strong>. Click the following link and enter your information below to login:<br> <br> http://[host][object_link]<br> <br> <strong>Email</strong>: [email]<br> <strong>Password</strong>: [password]<br> <br> [footer]"
+"_EMAIL_NOTIFY_TFCAMPAIGN_ALERT_PLAYER_BODY";"[header]<br> <br> Your player <strong>[sender_title]</strong> is matching a new campaign ([object_title]).<br> <br> Click on the following link for more details: http://[host][object_link].<br> <br> [footer]"
+"_EMAIL_CORE_WELCOME_PASSWORD_BODY";"[header]
+
+Thank you for joining our social network. Click the following link and enter your information below to login:
+
+http://[host][object_link]
+
+Email: [email]
+Password: [password]
+
+[footer]"
 "Add Talks";"Add Talk"
 "clubs & organizations";"corporates & clubs directory"
 "professionals";"professionals directory"
@@ -367,16 +371,6 @@ Password: [password]
 "_EMAIL_CORE_WELCOME_DESCRIPTION";"This is the email that gets sent when a member signs up if random passwords are disabled."
 "_EMAIL_CORE_WELCOME_PASSWORD_TITLE";"Welcome With Password"
 "_EMAIL_CORE_WELCOME_PASSWORD_DESCRIPTION";"This is the email that gets sent when a member signs up if random passwords are enabled. Please note that if you have email verification enabled, the password variable is not available. This is due to the fact that passwords are securely encrypted upon signup and cannot be unencrypted when a member verifies their email address and the welcome email is sent."
-"_EMAIL_CORE_WELCOME_PASSWORD_BODY";"[header]
-
-Thank you for joining our social network. Click the following link and enter your information below to login:
-
-http://[host][object_link]
-
-Email: [email]
-Password: [password]
-
-[footer]"
 "_EMAIL_CORE_LOSTPASSWORD_TITLE";"Lost Password"
 "_EMAIL_CORE_LOSTPASSWORD_DESCRIPTION";"This is the email that gets sent if a member forgets their password and requests to create a new one."
 "_EMAIL_CORE_LOSTPASSWORD_SUBJECT";"Social Network - Lost Password"
@@ -423,17 +417,8 @@ You can changed your password here [object_link]
 "Invalid credentials supplied";"The credentials you have supplied are invalid. Please check your email and password, and try again."
 "Passwords did not match";"Passwords did not match"
 "SignUp - Required Info";"Choose your password"
-"_EMAIL_INVITE_CODE_SUBJECT";"[sender_title] is inviting you to join [host]!"
-"_EMAIL_INVITE_CODE_BODYHTML";"[header]<br> <br> You have been invited by <strong>[sender_title]</strong>&nbsp;to join&nbsp;<strong>[host]</strong>. To join, please follow the link below:<br>http://[host][object_link]<br><br><br>Click on (Register) and follow the instructions.<br> <br>Your Invitation code is:&nbsp;<strong>[code]</strong><br><br> <strong>Note</strong> (if any)<strong>:</strong><br> [message]<br><br><br> [footer]"
 "You have chosen the trial plan. Please check your email for confirmation.";"You have chosen the trial plan. Please check your email for confirmation."
 "Carleton graduate student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while.";"Carleton graduate student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while."
-
-"Carleton graduate student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while.";"Carleton grad student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while."
-"Carleton graduate student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while.";"Carleton graduate student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while."
-
-"Carleton grad student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while.";"Carleton grad student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while."
-
-"Carleton grad student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while.";"Carleton1 graduate student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while."
 "Carleton grad student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while.";"Carleton grad student Osama Abushaban stood before a panel of four judges, all of them experienced entrepreneurs. Dressed in smart casual, he didn’t realize how nervous he was and that he had been holding his breath for quite a while."
 "How it works?";"How it works ?"
 "<p>
@@ -453,7 +438,6 @@ You can changed your password here [object_link]
 					<p>
 					For many young talents around the world, football is not just a sport, it is an opportunity to improve their lives through scholarships or contracts with football clubs. Our goal is to make this happen, by offering football talents, clubs, universities and scouts a platform that will connect them worldwide.
 					</p>"
-"The email is exists.";"The email is exists."
 "The email is exists.";"We have received your request to join already."
 "Learn more";"Learn more"
 "Home";"Home"
@@ -518,3 +502,112 @@ You can changed your password here [object_link]
 "<span>Football </span>Schools, NGOs";"<span>Football </span>Schools, NGOs"
 "<span>Football </span>Scouts, Agents";"<span>Football </span>Scouts, Agents"
 "<span>Football </span>Clubs, Universities";"<span>Football </span>Clubs, Universities"
+"_EMAIL_CORE_WELCOME_BODY";"[header]<br> <br>Welcome!<br>Thank you for joining <strong>[host]</strong>. Here is your login ID:<br> <br>Email: <strong>[email]</strong><br> <br>To login, go here:<br>http://[host][object_link]<br><br>[footer]"
+"_EMAIL_INVITE_SUBJECT";"[sender_title] is inviting you to join [host]!"
+"_EMAIL_INVITE_BODY";"[header]<br><br>You have been invited by&nbsp;<strong>[sender_title]</strong>&nbsp;to join&nbsp;<strong>[host]</strong>. To join, please follow the link below:<br>http://[host][object_link]<br><br>Click on (Register) and use this invitation code&nbsp;<strong>[code]</strong>.<br><br><strong>Note</strong><strong>:</strong><br>[message]<br><br><br>[footer]"
+"_EMAIL_INVITE_CODE_SUBJECT";"Welcome! You have been approved to join [host]"
+"_EMAIL_INVITE_CODE_BODY";"[header]<br><br><br>You have been approved&nbsp;to join&nbsp;<strong>[host]</strong>. To register, please follow the link below:<br>http://[host][object_link]<br><br>Click on (Register) and use this invitation code&nbsp;<strong>[code]</strong>.<br><br><strong>Note</strong><strong>:</strong><br>[message]<br><br><br>[footer]"
+"<p>
+					Tarfee is a social network that connects football talents with football clubs, universities and scouts worldwide. We believe that every football talent deserves a chance to be noticed and recognized.
+					</p>
+					<p>
+					Therefore, we help football talents, as well as football schools and non-profit organizations to promote their students and their organizations.
+					</p>
+					<p>
+					For many young talents around the world, football is not just a sport, it is an opportunity to improve their lives through scholarships or contracts with football clubs. Our goal is to make this happen, by offering football talents, clubs, universities and scouts a platform that will connect them worldwide.
+					</p>";"<p>
+					Tarfee is a social network that connects football talents with football clubs, universities and scouts worldwide. We believe that every football talent deserves a chance to be noticed and recognized.
+					</p>
+					<p>
+					Therefore, we help football talents, as well as football schools and non-profit organizations to promote their students and their organizations.
+					</p>
+					<p>
+					For many young talents around the world, football is not just a sport, it is an opportunity to improve their lives through scholarships or contracts with football clubs. Our goal is to make this happen, by offering football talents, clubs, universities and scouts a platform that will connect them worldwide.
+					</p>"
+"<li>- Promote your organization and students, and show the world what you stand for!</li>
+												<li>- Create player profile for each student and upload his/her videos and information</li>
+												<li>- Be engaged with your community, kids, and their parents</li>
+												<li>- Create events and tryouts and invite people to join</li>
+												<li>- Directly send message your followers</li>
+												<li>- Avoid fraud by checking the ratings and reviews of scouts</li>";"<li>- Promote your corporate and students, and show the world what you stand for!</li>
+												<li>- Create player profile for each student and upload his/her videos and information</li>
+												<li>- Be engaged with your community, kids, and their parents</li>
+												<li>- Create events and tryouts and invite people to join</li>
+												<li>- Directly send message your followers</li>
+												<li>- Avoid fraud by checking the ratings and reviews of scouts</li>"
+"Organization";"Corporate"
+"Club Name";"Corporate Name"
+"Clubs";"Corporates"
+"<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>";"<li>- Upload your best videos to be noticed easily by football scouts, clubs, and universities all over the world</li>
+												<li>- Get the best contract or scholarship</li>
+												<li>- Apply for tryouts and events organized by football scouts, clubs, and universities</li>
+												<li>- Avoid fraud and false offers by checking the ratings and reviews of scouts</li>
+												<li>- Connect with other players and professionals to share your experience, learn, and to get advice</li>"
+"ACTIVITY_TYPE_COMMENT_ADVGROUP";"When someone comments on one of my clubs."
+"ACTIVITY_TYPE_LIKE_ADVGROUP";"When someone likes one of my clubs."
+"_EMAIL_NOTIFY_ADVGROUP_FOLLOW_EDIT_DESCRIPTION";"This email is sent to the followers of clubs."
+"Clubs...";"Clubs..."
+"Leave Club";"Unfollow"
+"Are you sure you want to leave this club?";"Are you sure you want to unfollow this page?"
+"You have successfully unfollowed this page.";"You have successfully left this group."
+"You have successfully left this club.";"You are no more following this page."
+"Follow Club";"Follow"
+"Would you like to follow this club?";"Would you like to follow this page?"
+"You are now a fan of this club.";"You are now following this page."
+"Edit Club";"Edit Corproate Page"
+"_EMAIL_NOTIFY_YNEVENT_NOTIFY_END_SUBJECT";"Notificación: Tu evento [object_title] está por finalizar"
+"_EMAIL_NOTIFY_YNEVENT_NOTIFY_END_BODYHTML";"[header]<br> <br>El evento ""[object_title]""&nbsp;est&aacute; por finalizar. Hacer click en el siguiente link para ver el detalle:<br><br> http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_NOTIFY_YNEVENT_NOTIFY_START_SUBJECT";"Notificación: El evento [object_title] ha comenzado"
+"_EMAIL_NOTIFY_YNEVENT_NOTIFY_START_BODYHTML";"[header]<br><br>El evento ""[object_title]""ha comenzado. Hacer click en el siguiente link para ver el detalle:<br> <br><br> http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_NOTIFY_YNEVENT_REMIND_SUBJECT";"Recordatorio: El evento [object_title] esta por comenzar"
+"_EMAIL_NOTIFY_YNEVENT_REMIND_BODYHTML";"[header]<br> <br>Hola ""[recipient_title]"",<br><br>
+<p>No te pierdas el evento de mana&ntilde;a. Has click en el siguiente link para ver detalles:</p>
+Event: ""[object_title]""&nbsp;<br> <br>http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_NOTIFY_YNEVENT_CHANGE_DETAILS_SUBJECT";"Los detalles del evento [object_title] han cambiado"
+"_EMAIL_NOTIFY_YNEVENT_CHANGE_DETAILS_BODYHTML";"[header]<br><br>Los detalles del evento ""[object_title]""&nbsp;&nbsp;que estas siguiendo han sido modificado. Para conocer mas detalles hacer click en el siguiente link:<br><br> http://[host][object_link]<br> [footer]"
+"_EMAIL_NOTIFY_YNEVENT_INVITE_SUBJECT";"Has sido invitado para unirte evento [object_title]"
+"_EMAIL_NOTIFY_YNEVENT_INVITE_BODYHTML";"[header]<br><br> Has sido invitado para unirte al evento &nbsp;""[object_title]"". Hacer click en el siguiente link para conocer mas detalles:<br> <br> http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_NOTIFY_YNEVENT_INVITE_MESSAGE_SUBJECT";"Has sido invitado a unirte al evento [object_title]"
+"_EMAIL_NOTIFY_YNEVENT_INVITE_MESSAGE_BODYHTML";"[header]<br> <br>Has sido invitado para unirte al evento &nbsp;""[object_title]"". Hacer click en el siguiente link para conocer mas detalles:<br> <br> http://[host][object_link]<br> <br> ----------------------------------------<br> [message]<br> ----------------------------------------<br> <br> [footer]"
+"_EMAIL_NOTIFY_YNEVENT_DISCUSSION_REPLY_SUBJECT";"Un mienbro ha comentado en ""[object_title]"" del evento ""[object_parent_title]"""
+"_EMAIL_NOTIFY_YNEVENT_DISCUSSION_REPLY_BODYHTML";"[header]<br> <br> [sender_title] has comentado en tu publicacion ""[object_title]"" en el evento ""[object_title]"":<br> <br> ""[message]""<br> <br>Has click en el siguiente link para ver el comentario:<br> <br> http://[host][object_link]<br> <br> [footer]"
+"If you would like to change your subscription, please select an option below.";"(((this phrase is not used))) 0001"
+"If you would like to change your sembership, please select an option below.";"If you would like to change your membership level, please check the membership types, features offered under each and proceed with your preference."
+"_EMAIL_NOTIFY_ADMIN_USER_UPGRADE_SUBJECT";"[sender_title] has requested to upgrade membership."
+"_EMAIL_NOTIFY_ADMIN_USER_UPGRADE_BODYHTML";"[header]<br> <br> [sender_title] has requested to upgrade membership. Please click the following link to view it:<br> <br> http://[host]/admin/user/upgrade-requests?email=[sender_email]<br> <br> [footer]"
+"_EMAIL_USER_ACCOUNT_APPROVED_SUBJECT";"Your account has been approved."
+"_EMAIL_USER_ACCOUNT_APPROVED_BODYHTML";"[header]<br> <br> Your account has been approved by [host]. Please click the following link to sign in:<br> <br> http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_CORE_WELCOME_PASSWORD_SUBJECT";"Welcome to [host]"
+"_EMAIL_CORE_WELCOME_PASSWORD_BODYHTML";"[header]<br> <br> Thank you for joining <strong>[host]</strong>. Click the following link and enter your login information:<br> <br> http://[host][object_link]<br> <br> Email: [email]<br> Password: [password]<br> <br> [footer]"
+"_EMAIL_NOTIFY_ADMIN_USER_SIGNUP_SUBJECT";"[object_title] has joined [host]"
+"_EMAIL_NOTIFY_ADMIN_USER_SIGNUP_BODYHTML";"<br> <br> Congratulations, someone has joined your social network. Welcome the new member to your site:<br> <br> [object_title] : http://[host][object_link]<br> Signup Date: [date]<br>"
+"_EMAIL_CORE_WELCOME_SUBJECT";"Welcome to [host]"
+"_EMAIL_CORE_WELCOME_BODYHTML";"[header]<br> <br>Welcome!<br>Thank you for joining <strong>[host]</strong>. Here is your login ID:<br> <br>Email: <strong>[email]</strong><br> <br>To login, go here:<br>http://[host][object_link]<br><br>[footer]"
+"_EMAIL_CORE_VERIFICATION_SUBJECT";"Tarfee - Email Verification"
+"_EMAIL_CORE_VERIFICATION_BODYHTML";"[header]<br> <br> Thank you for joining <strong>[host]</strong>. To verify your email address and continue, please click the following link:<br> <br>http://[host][object_link]<br>Email: [email]<br><br>If you recieved this email by mistake, please ignore it!<br> <br> [footer]"
+"Trophies & Archievements";"Trophies & Achievements"
+"You don't have any trophies/archievements!";"You don't have any trophies/achievements!"
+"Maximum trophies and archievements the user can add";"Maximum trophies and achievements the user can add"
+"Maximum character of trophy/archievement Short description the user can add";"Maximum character of trophy/achievement Short description the user can add"
+"_EMAIL_NOTIFY_FRIEND_FOLLOW_SUBJECT";"[sender_title] has started following you."
+"_EMAIL_NOTIFY_FRIEND_FOLLOW_BODYHTML";"[header]<br> <br> [sender_title] has started following you. Please click the following link to view the member:<br> <br> http://[host][object_link]<br> <br> [footer]"
+"_EMAIL_HEADER_SUBJECT";""
+"_EMAIL_HEADER_BODYHTML";"Hello,"
+"_EMAIL_FOOTER_SUBJECT";""
+"_EMAIL_FOOTER_BODYHTML";"Best Regards,<br> Tarfee team<br>www.tarfee.com"
+"_EMAIL_HEADER_MEMBER_SUBJECT";""
+"_EMAIL_HEADER_MEMBER_BODYHTML";"Hello [recipient_title],"
+"_EMAIL_FOOTER_MEMBER_SUBJECT";""
+"_EMAIL_FOOTER_MEMBER_BODYHTML";"Best Regards,<br>Tarfee team<br>www.tarfee.com"
+"_EMAIL_NOTIFY_FRIEND_FOLLOW_REQUEST_SUBJECT";"[sender_title] has requested to follow you."
+"_EMAIL_NOTIFY_FRIEND_FOLLOW_REQUEST_BODYHTML";"[header]<br> <br> [sender_title] has requested to follow you. Please click the following link to sign in and confirm this request:<br> <br> http://[host][object_link]<br> <br> [footer]"
+"Add Talks";"Start a Talk"
+"Add Talk";"Start a Talk"
+"Write New Entry";"Start a new Talk"
+"Add New Talk";"Add New Talk"
+"Add New Talk";"Start a New Talk"
+"Write New Entry";"Start a New Talk"

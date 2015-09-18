@@ -258,7 +258,6 @@ class Advgroup_Plugin_Menus
 		// Get viewer and group
 		$viewer = Engine_Api::_() -> user() -> getViewer();
 		$subject = Engine_Api::_() -> core() -> getSubject();
-
 		//Must be a group
 		if ($subject -> getType() !== 'group')
 		{
@@ -271,7 +270,6 @@ class Advgroup_Plugin_Menus
 		}
 
 		$row = $subject -> membership() -> getRow($viewer);
-
 		// Not yet associated at all
 		if (null === $row || $row -> rejected_ignored)
 		{

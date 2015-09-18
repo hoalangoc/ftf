@@ -82,14 +82,9 @@ class User_Plugin_Core
 	  	 $campaign -> delete();
 	  }
 	  
-	  //Remove invite request
-	  $requestTable = Engine_Api::_()->getDbTable('inviterequests', 'user');
-	  if (!empty($payload->email)) {
-	  	$requestTable->delete(array($requestTable->getAdapter()->quoteInto('email = ?', $payload->email)));
-	  }
     }
   }
-	
+
   public function onUserEnable($event)
   {
     $user = $event->getPayload();
@@ -196,11 +191,6 @@ class User_Plugin_Core
         Engine_Api::_()->getDbtable('notificationSettings', 'activity')
           ->setEnabledNotifications($payload, $defaultNotifications);
       }
-	  
-	  $requestTable = Engine_Api::_()->getDbTable('inviterequests', 'user');
-	  if (!empty($payload->email)) {
-	  	$requestTable->delete(array($requestTable->getAdapter()->quoteInto('email = ?', $payload->email)));
-	  }
     }
   }
   
@@ -350,7 +340,7 @@ class User_Plugin_Core
 		$item = Engine_Api::_()->getItem($payload -> getType(), $payload -> getIdentity());
 		$user = Engine_Api::_()->user()->getViewer();
 		$club = $user->getClub();
-		if ($payload -> getType() != 'video' && in_array($payload -> getType(), $availableType) && Engine_Api::_()->user()->canTransfer($item) && ($item->parent_type != 'group')) {
+		if ($club && $payload -> getType() != 'video' && in_array($payload -> getType(), $availableType) && Engine_Api::_()->user()->canTransfer($item) && ($item->parent_type != 'group')) {
 			$item->parent_type = 'group';
 			$item->parent_id = $club->getIdentity();
 			$item->save();

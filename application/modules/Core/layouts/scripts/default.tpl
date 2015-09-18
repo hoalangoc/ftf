@@ -204,7 +204,7 @@
 		$module = $request->getModuleName();
 		$controller = $request->getControllerName();
 		$action = $request -> getActionName();
-		if(!in_array($pageTitleKey,array('pagetitle-user-home-index', 'pagetitle-user-index-profile', 'pagetitle-social-connect-index-signup', 'pagetitle-social-connect-identity-exists-index', 'pagetitle-social-connect-add-password-index', 'pagetitle-sladvsubscription-choose-subscription', 'pagetitle-user-confirm-trial-index', 'pagetitle-payment-gateway-subscription', 'pagetitle-social-connect-add-email-index', 'pagetitle-social-connect-verify-code-map-user-index', 'pagetitle-user-index-signup', 'pagetitle-user-login-auth', 'pagetitle-user-forgot-auth', 'pagetitle-core-notfound-error', 'pagetitle-user-confirm-signup'))):
+		if($module != 'invite' && !in_array($pageTitleKey,array('pagetitle-user-home-index', 'pagetitle-user-index-profile', 'pagetitle-social-connect-index-signup', 'pagetitle-social-connect-identity-exists-index', 'pagetitle-social-connect-add-password-index', 'pagetitle-sladvsubscription-choose-subscription', 'pagetitle-user-confirm-trial-index', 'pagetitle-payment-gateway-subscription', 'pagetitle-social-connect-add-email-index', 'pagetitle-social-connect-verify-code-map-user-index', 'pagetitle-user-index-signup', 'pagetitle-user-login-auth', 'pagetitle-user-forgot-auth', 'pagetitle-core-notfound-error', 'pagetitle-user-confirm-signup'))):
 		?>
     	<div class="layout_page_breadcrumb">
 	    	<ul id="breadcrumb" class="breadcrumb">
